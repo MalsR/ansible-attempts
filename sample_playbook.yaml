@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  tasks:
+  - name: can 'ls' directory
+    shell: "ls -la /home/malsr/workspace/"

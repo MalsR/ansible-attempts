@@ -1,0 +1,7 @@
+---
+# Simple project that aims to demonstrate by example the different levels of
+# how ansible handles variable precedence (well at least most of them)
+# See http://docs.ansible.com/ansible/latest/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
+- hosts: localhost
+  roles:
+    - role-defaults
