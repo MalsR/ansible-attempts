@@ -1,4 +1,10 @@
 ---
+- name: print the value of a "role default"
+  command: echo "{{ role_default }}"
+  register: output
+
+- debug: msg="{{ output.stdout }}"
+
 - name: print the value of the variable
   command: echo "{{ override_variable }}"
   register: output

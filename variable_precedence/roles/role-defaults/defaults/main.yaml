@@ -1,1 +1,4 @@
+# Easily overridden role default, lowest in precedence
+role_default: "I'm a role default"
+
 override_variable: "Hey, I'm a role default!"
