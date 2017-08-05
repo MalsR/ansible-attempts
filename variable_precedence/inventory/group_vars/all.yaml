@@ -1,1 +1,1 @@
-override_variables: "Hey, I'm a inventory group var!"
+override_variable: "Hey, I'm an inventory group var!"
