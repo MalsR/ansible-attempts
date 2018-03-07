@@ -25,3 +25,8 @@ drwxrwxr-x 3 malsr malsr 4096 Aug  5 18:21 inventory
 drwxrwxr-x 3 malsr malsr 4096 Aug  5 18:21 roles
 -rw-rw-r-- 1 malsr malsr  319 Aug  5 18:21 show_variable_precedence.yaml
 ```
+
+## Links
+- http://docs.ansible.com/ansible/latest/intro_getting_started.html
+- http://docs.ansible.com/ansible/latest/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
+- http://docs.ansible.com/ansible/latest/playbooks_roles.html#role-default-variables
